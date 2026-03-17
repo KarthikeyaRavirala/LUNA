@@ -17,6 +17,10 @@ build/
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # OS files
 .DS_Store
@@ -28,8 +32,14 @@ Thumbs.db
 *.swp
 *.swo
 *~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Temporary files
 tmp/
 temp/
 *.tmp
+*.local
