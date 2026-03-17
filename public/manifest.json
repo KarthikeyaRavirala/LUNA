@@ -1,0 +1,63 @@
+{
+    "name": "LUNA",
+    "short_name": "LUNA",
+    "description": "Connect through your cycle — cycle-aware social support for women",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#0d0d14",
+    "theme_color": "#f06292",
+    "categories": [
+        "health",
+        "lifestyle",
+        "social"
+    ],
+    "lang": "en",
+    "icons": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23f06292'/><text y='.9em' font-size='60' x='50%' text-anchor='middle' dy='.15em'>🌸</text></svg>",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23f06292'/><text y='.9em' font-size='60' x='50%' text-anchor='middle' dy='.15em'>🌸</text></svg>",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-dashboard.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "LUNA Dashboard"
+        },
+        {
+            "src": "/screenshot-journal.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "Luna Journal"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Dashboard",
+            "url": "/dashboard",
+            "description": "View your cycle dashboard"
+        },
+        {
+            "name": "Luna Journal",
+            "url": "/journal",
+            "description": "Open your private journal"
+        },
+        {
+            "name": "Craving Kitchen",
+            "url": "/craving-kitchen",
+            "description": "Phase-matching recipes"
+        }
+    ],
+    "prefer_related_applications": false
+}
